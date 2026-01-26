@@ -1,0 +1,16 @@
+{
+  "name": "love2d-coroutine-animations",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve docs",
+    "build": "./build.sh"
+  },
+  "keywords": [],
+  "author": "Jesse Jurman",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "love.js": "^11.4.1",
+    "serve": "^14.2.4"
+  }
+}
