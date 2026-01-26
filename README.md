@@ -1,8 +1,10 @@
 # Love2d - Coroutines and Animations
 
+Live Demo: http://jrjurman.com/love2d-coroutines-and-animations/
+
 This project is based on the youtube video [Coroutines and Animation in PICO-8](https://youtu.be/tfGmjB72t0o) and the easing functions in [Animation Curves cheat sheet/library](https://www.lexaloffle.com/bbs/?tid=40577).
 
-I highly recommend first watching and then following along with the youtube video, and then you can pull the animation utilities and easing functions from the respective files under `src/` in this repo.
+This repo is a minimal demo of what those easing and animation functions look like in Love2d. You are welcome to pull the files under `src/` into your own project, but should give attribution to the above sources.
 
 <video controls src="https://github.com/user-attachments/assets/c1fd0d9e-94a6-4636-980b-50ede956a132" aria-label="Animations Demo, there is a square on a track, and several animation functions listed on the left."></video>
 
