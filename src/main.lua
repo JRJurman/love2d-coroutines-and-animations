@@ -147,25 +147,21 @@ function love.keypressed(key)
 	stopAnimations(routines)
 
 	if key == "down" then
-		if animationSelection == #easingOptions then
-			animationSelection = 1
-		else
+		if animationSelection < #easingOptions then
 			animationSelection = animationSelection + 1
 		end
+		print('tts: '..easingOptionDescriptions[easingOptions[animationSelection]])
 	end
 
 	if key == "up" then
-		if animationSelection == 1 then
-			animationSelection = #easingOptions
-		else
+		if animationSelection > 1 then
 			animationSelection = animationSelection - 1
 		end
+		print('tts: '..easingOptionDescriptions[easingOptions[animationSelection]])
 	end
 
-	-- print accessible label for screen readers
-	print('tts: '..easingOptionDescriptions[easingOptions[animationSelection]])
 
-	async(function()
+	async(routines, function()
 		square.x = initX
 		animate(square, "x", finalX, 2, ease[easingOptions[animationSelection]])
 	end)
