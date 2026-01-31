@@ -7,7 +7,7 @@
   },
   "keywords": [],
   "author": "Jesse Jurman",
-  "license": "MIT",
+  "license": "CC0",
   "description": "",
   "dependencies": {
     "love.js": "^11.4.1",
